@@ -45,6 +45,17 @@ Passionate about building data-driven applications, backend systems, and AI solu
 
 ## 🔥 Featured Projects
 
+### 🩺 ClaimPilot
+Agentic AI assistant for healthcare claim denials: looks up the claim, finds the payer policy rule
+behind the denial code with hybrid RAG, explains it with page-level citations, and sends appeal
+drafts to a human approval queue. Evaluated with a fact-checking golden set (12/12 on a local 3B model).
+
+**Tech Stack:** Python, LangGraph, RAG (FAISS + BM25), FastAPI, React + TypeScript, SQLAlchemy, Docker, GitHub Actions, Ollama / Gemini
+
+🔗 [Repository](https://github.com/DinithiSamarakoon/claimpilot)
+
+---
+
 ### 🍳 DanKitchen
 AI-powered Recipe OCR application that extracts recipe details from images using OCR and Gemini AI.
 
